@@ -17,6 +17,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@hilario-ui/eslint-config": "*",
+    "@hilario-ui/react": "*",
+    "@hilario-ui/tokens": "*",
     "@storybook/addon-essentials": "^7.6.2",
     "@storybook/addon-interactions": "^7.6.2",
     "@storybook/addon-links": "^7.6.2",
