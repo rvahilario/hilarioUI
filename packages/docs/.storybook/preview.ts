@@ -1,4 +1,5 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from "@storybook/react"
+import { themes } from '@storybook/theming'
 
 const preview: Preview = {
   parameters: {
@@ -9,7 +10,13 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    docs: {
+      theme: themes.dark,
+    },
+    backgrounds: {
+      default: 'dark'
+    },
   },
-};
+}
 
-export default preview;
+export default preview
