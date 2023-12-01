@@ -3,8 +3,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
+    "turbo": "^1.10.16",
     "vite": "^5.0.4"
   }
 }
