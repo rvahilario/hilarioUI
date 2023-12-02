@@ -1,6 +1,6 @@
 import '../styles/tokens-grid.css'
 
-interface TokensGridProps {
+type TokensGridProps = {
   tokens: Record<string, string>
   hasRemValue?: boolean
 }
