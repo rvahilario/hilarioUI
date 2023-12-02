@@ -13,6 +13,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^7.6.3",
+    "@storybook/addon-interactions": "^7.6.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
@@ -24,7 +26,6 @@
     "@hilario-ui/tokens": "*",
     "@hilario-ui/ts-config": "*",
     "@storybook/addon-essentials": "^7.6.2",
-    "@storybook/addon-interactions": "^7.6.2",
     "@storybook/addon-links": "^7.6.2",
     "@storybook/addon-onboarding": "^1.0.8",
     "@storybook/blocks": "^7.6.2",
