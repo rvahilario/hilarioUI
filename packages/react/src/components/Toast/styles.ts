@@ -14,13 +14,6 @@ const slideOut = keyframes({
 export const ToastProvider = styled(Toast.Provider, {})
 
 export const ToastRoot = styled(Toast.Root, {
-  // padding: '$3 $4',
-  // background: '$gray900',
-  // border: '1px solid $gray600',
-  // borderRadius: '$sm',
-  // fontFamily: '$default',
-  // position: 'relative',
-
   display: 'grid',
   gridTemplateColumns: 'auto max-content',
   width: '100%',
